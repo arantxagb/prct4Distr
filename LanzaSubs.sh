@@ -1,8 +1,8 @@
 #!/bin/bash
 
-for ((i=1; i<=500; i++))
+for ((i=1; i<=900; i++))
 do
-    ./subscriber --ip 192.168.1.105 --port 8441 --topic \len &
+    ./subscriber --ip 212.128.254.31 --port 8441 --topic \len &
     sleep 0.00001  # Espera 0.2 segundos entre cada lanzamiento
 done
 
