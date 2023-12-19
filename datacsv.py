@@ -2,11 +2,17 @@ import csv
 import re
 import statistics
 
+<<<<<<< HEAD
 # Definir la ruta del archivo de entrada y salida
 input_file_path = 'resSec900.txt'
 output_file_path = 'resultadosFinalesSec900.csv'
+=======
+# ruta del archivo de entrada y salida
+input_file_path = 'resJust900.txt'
+output_file_path = 'resultadosFinalesJust900.csv'
+>>>>>>> aab2e454afc203bf1b347f52d532ecd3edd0e3bc
 
-# Listas para almacenar valores de latencia
+# valores de latencia
 latencies = []
 
 # Abrir el archivo de salida en modo escritura
@@ -17,10 +23,14 @@ with open(output_file_path, 'w', newline='') as csvfile:
     # Escribir la primera línea de encabezado
     csv_writer.writerow(['Modo', 'N', 'min', 'max', 'avg', 'std'])
 
+<<<<<<< HEAD
     # Solicitar al usuario que ingrese el valor de modo y N
     modo = "secuencial"
+=======
+    # Establecer el modo y el valor de N
+    modo = "justo"
+>>>>>>> aab2e454afc203bf1b347f52d532ecd3edd0e3bc
     N = 900
-
 
     # Abrir el archivo de entrada en modo lectura
     with open(input_file_path, 'r') as file:
