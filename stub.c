@@ -20,15 +20,15 @@
 
 bool end = false; // Variable to end the broker
 int opt = 1; // Variable to set the socket options
-int ocupation[MAX_CLIENTS] = {0};
-int ocupation_topics[MAX_TOPICS] = {0};
-int ocupation_subscribers[MAX_SUBSCRIBERS] = {0};
-int ocupation_publishers[MAX_PUBLISHERS] = {0};
-int publishers[MAX_PUBLISHERS] = {0};
-int subscribers[MAX_SUBSCRIBERS] = {0};
-char topics[MAX_TOPICS][50] = {0};
-struct topic_info* topic_info;
-int num_justo_subs = 0;
+int ocupation[MAX_CLIENTS] = {0}; // Array to store the ocupation of the clients
+int ocupation_topics[MAX_TOPICS] = {0}; // Array to store the ocupation of the topics
+int ocupation_subscribers[MAX_SUBSCRIBERS] = {0}; // Array to store the ocupation of the subscribers
+int ocupation_publishers[MAX_PUBLISHERS] = {0}; // Array to store the ocupation of the publishers
+int publishers[MAX_PUBLISHERS] = {0}; // Array to store the publishers
+int subscribers[MAX_SUBSCRIBERS] = {0}; // Array to store the subscribers
+char topics[MAX_TOPICS][50] = {0}; // Array to store the topics
+struct topic_info* topic_info; // Struct to store the topic info
+int num_justo_subs = 0; // Variable to store the number of subscribers in justo mode
 
 pthread_mutex_t ocupation_topics_mutex;
 pthread_mutex_t ocupation_subscribers_mutex;
@@ -45,6 +45,7 @@ void sigint_handler(int sig){ // Signal handler to end the broker
 }
 
 int position_free(int *array, int size){ // Returns the first free position in the array
+    
     for(int i = 0; i < size; i++){
         if(array[i] == 0){
             return i;
@@ -53,25 +54,22 @@ int position_free(int *array, int size){ // Returns the first free position in t
     return -1;
 }
 
-void reset_list(char *flag, int index) {
-
+void reset_list(char *flag, int index) { // Function to reset the list of subscribers or publishers
     int j = 0; 
 
     if (strcmp(flag, "publisher") == 0){
         int temp[MAX_PUBLISHERS];
 
         for (int i = 0; i < MAX_PUBLISHERS; i++) {
-            if (topic_info[index].subscribers[i] != 0) {
-                temp[j] = topic_info[index].subscribers[i];
+            if (topic_info[index].subscribers[i] != 0) { // Check if the position is occupied
+                temp[j] = topic_info[index].subscribers[i]; // Then store the socket in the temp array 
                 j++;
             }
         }
-
-        for (int i = 0; i < j; i++) {
+        for (int i = 0; i < j; i++) { // Copy the temp array to the subscribers array
             topic_info[index].subscribers[j]= temp[i];
         }
-
-        for (; j < MAX_PUBLISHERS; j++) {
+        for (; j < MAX_PUBLISHERS; j++) { // Set the rest of the array as 0
             topic_info[index].subscribers[j] = 0;
         }
 
@@ -79,16 +77,14 @@ void reset_list(char *flag, int index) {
         int temp[MAX_SUBSCRIBERS];
 
         for (int i = 0; i < MAX_SUBSCRIBERS; i++) {
-            if (topic_info[index].subscribers[i] != 0) {
-                temp[j] = topic_info[index].subscribers[i];
+            if (topic_info[index].subscribers[i] != 0) { // Check if the position is occupied
+                temp[j] = topic_info[index].subscribers[i]; // Then store the socket in the temp array
                 j++;
             }
         }
-
         for (int i = 0; i < j; i++) {
             topic_info[index].subscribers[i] = temp[i];
         }
-
         for (; j < MAX_SUBSCRIBERS; j++) {
             topic_info[index].subscribers[j] = 0;
         }
@@ -97,13 +93,14 @@ void reset_list(char *flag, int index) {
 
 void error_message(int fd, int position, int error){ // Function to send an error message
     struct response response; // Create the struct to store the response
-    response.response_status = 1; // Set the response status as LIMIT
     response.id = -1; // Set the id as -1
-    response.response_status = error; // Set the response status as LIMIT
+    response.response_status = error; // Set the response status to the error
+    
     if(send(fd, &response, sizeof(response), 0) < 0){ // Send the response
         fprintf(stderr, "Error sending the response \n");
         exit(EXIT_FAILURE);
     }
+    
     close(fd); // Close the socket
     pthread_mutex_lock(&ocupation_mutex);
     ocupation[position] = 0; // Set the position as free
@@ -119,7 +116,7 @@ void register_topic(int position, int fd, struct message *msg, char *flag){ // F
         if(strcmp(topic_info[i].topic, msg->topic) == 0){
             registered = 0;
 
-            if (strcmp(flag, "publisher") == 0){
+            if (strcmp(flag, "publisher") == 0){ 
                 topic_info[i].num_publishers++;
                 topic_info[i].publishers[topic_info[i].num_publishers - 1] = fd;
             } else if(strcmp(flag, "subscriber") == 0){
@@ -131,7 +128,7 @@ void register_topic(int position, int fd, struct message *msg, char *flag){ // F
             }
         } 
     }
-    if (registered == 1){
+    if (registered == 1){ // If the topic is not registered
         pthread_mutex_lock(&ocupation_topics_mutex);
         int id_topic = position_free(ocupation_topics, MAX_TOPICS); // Get the first free position in the array
         pthread_mutex_unlock(&ocupation_topics_mutex);
@@ -165,16 +162,19 @@ void register_topic(int position, int fd, struct message *msg, char *flag){ // F
     pthread_mutex_unlock(&register_topic_mutex);
 }
 
-void existing_topic(int i){
+void existing_topic(int i){ // Function to check if the topic is empty
+    
     if(topic_info[i].num_publishers <= 0 && topic_info[i].num_subscribers <= 0){
         topic_info[i].id = -1;
         strcpy(topic_info[i].topic, "");
+        
         for (int j = 0; j < MAX_PUBLISHERS; j++){
             topic_info[i].publishers[j] = 0;
         }
         for (int j = 0; j < MAX_SUBSCRIBERS; j++){
             topic_info[i].subscribers[j] = 0;
         }
+
         topic_info[i].num_publishers = 0;
         topic_info[i].num_subscribers = 0;
         pthread_mutex_lock(&ocupation_topics_mutex);
@@ -183,18 +183,18 @@ void existing_topic(int i){
     } 
 }
 
-void desregister(int fd, struct message *msg, char *flag){ // Function to desregister a topic
+void desregister(int fd, struct message *msg, char *flag){ // Function to desregister a publisher or subscriber
+    
     for(int i = 0; i < MAX_TOPICS; i++){
-        if(strcmp(topic_info[i].topic, msg->topic) == 0){
-
+        if(strcmp(topic_info[i].topic, msg->topic) == 0){ 
             pthread_mutex_lock(&register_topic_mutex);
-            if(strcmp(flag, "publisher") == 0){
-                for (int j = 0; j < topic_info[i].num_publishers; j++){
-                    if(topic_info[i].publishers[j] == fd){
-                        topic_info[i].publishers[j] = 0;
-                        topic_info[i].num_publishers--;
-                        reset_list("publisher", i);
-                        existing_topic(i);
+            if(strcmp(flag, "publisher") == 0){ 
+                for (int j = 0; j < topic_info[i].num_publishers; j++){  
+                    if(topic_info[i].publishers[j] == fd){ 
+                        topic_info[i].publishers[j] = 0; // Set the position as free
+                        topic_info[i].num_publishers--; // Decrease the number of publishers
+                        reset_list("publisher", i); // Reset the list of publishers
+                        existing_topic(i); // Check if the topic is empty
                         pthread_mutex_lock(&ocupation_publishers_mutex);
                         ocupation_publishers[j] = 0; // Set the position as free
                         pthread_mutex_unlock(&ocupation_publishers_mutex);
@@ -204,10 +204,10 @@ void desregister(int fd, struct message *msg, char *flag){ // Function to desreg
             } else if(strcmp(flag, "subscriber") == 0){
                 for (int j = 0; j < topic_info[i].num_subscribers; j++){
                     if(topic_info[i].subscribers[j] == fd){
-                        topic_info[i].subscribers[j] = 0;
-                        topic_info[i].num_subscribers--;
-                        reset_list("subscriber", i);
-                        existing_topic(i);
+                        topic_info[i].subscribers[j] = 0; // Set the position as free
+                        topic_info[i].num_subscribers--; // Decrease the number of subscribers
+                        reset_list("subscriber", i); // Reset the list of subscribers
+                        existing_topic(i); // Check if the topic is empty
                         pthread_mutex_lock(&ocupation_publishers_mutex);
                         ocupation_subscribers[j] = 0; // Set the position as free
                         pthread_mutex_unlock(&ocupation_publishers_mutex);
@@ -225,16 +225,15 @@ void desregister(int fd, struct message *msg, char *flag){ // Function to desreg
 }
 
 void secuencial(int fd, struct message *msg){ // Function to send the data to the subscribers in secuencial mode
+    
     for(int i = 0; i < MAX_TOPICS; i++){
         if(strcmp(topic_info[i].topic, msg->topic) == 0){
-            pthread_mutex_lock(&register_topic_mutex); // NO PUEDE SER QUE PARA CADA TOPIC SE BLOQUEE EL MISMO MUTEX
-            for(int j = 0; j < topic_info[i].num_subscribers; j++){
-                //printf("data: %s \n", msg->data.data);
+            pthread_mutex_lock(&register_topic_mutex);
+            for(int j = 0; j < topic_info[i].num_subscribers; j++){ // Send the message to all the subscribers
                 if (send(topic_info[i].subscribers[j], &msg->data, sizeof(msg->data), 0) < 0){ // Send the message
                     fprintf(stderr, "Error sending the message \n");
                     exit(EXIT_FAILURE);
                 }
-                usleep(10);
             }
             pthread_mutex_unlock(&register_topic_mutex);
         }
@@ -268,12 +267,12 @@ void *thread_function_justo(void *arg){ // Function to handle the justo threads
     
     struct send_info *msg = (struct send_info *)arg;
 
-    pthread_mutex_lock(&cond_justo_mutex);
-    num_justo_subs++;
-    if (num_justo_subs == topic_info->num_subscribers) {
+    pthread_mutex_lock(&cond_justo_mutex); // Lock the mutex
+    num_justo_subs++; // Increase the number of subscribers
+    if (num_justo_subs == topic_info->num_subscribers) { // Check if all the subscribers have been reached
         pthread_cond_broadcast(&cond_justo);
     }
-    pthread_mutex_unlock(&cond_justo_mutex);
+    pthread_mutex_unlock(&cond_justo_mutex); // Unlock the mutex
     
     pthread_mutex_lock(&mutex_justo);
     while (num_justo_subs < topic_info->num_subscribers) {
@@ -302,9 +301,10 @@ void justo(int fd, struct message *msg){ // Function to send the data to the sub
     }
 }
 
-void resume(){
+void resume(){ // Function to print the resume
     int num_topics = 0;
     printf("Resumen: \n");
+    
     for (int i = 0; i < MAX_TOPICS; i++){
         if (strcmp(topic_info[i].topic, "") != 0){
             printf("%s: %d Suscriptores - %d Publicadores \n", topic_info[i].topic, topic_info[i].num_subscribers, topic_info[i].num_publishers);
@@ -321,13 +321,13 @@ void *thread_function_broker(void *arg){ // Function to handle the broker thread
     int position = info->position;
     struct message msg; // Create the struct to store the message
     struct timespec time;
+    int id;
     
     if(recv(info->fd, &msg, sizeof(msg), 0) < 0){ // Receive the message
         fprintf(stderr, "Error receiving the message \n");
         exit(EXIT_FAILURE);
     }
 
-    int id;
     if(msg.action == 0){ // REGISTER_PUBLISHER
         
         pthread_mutex_lock(&ocupation_publishers_mutex);
@@ -354,7 +354,7 @@ void *thread_function_broker(void *arg){ // Function to handle the broker thread
         printf("[%ld.%ld] Nuevo cliente (%d) Publicador conectado \n", time.tv_sec, time.tv_nsec, id);
         resume();
     
-    } else if(msg.action == 2){
+    } else if(msg.action == 2){ // REGISTER_SUBSCRIBER
         pthread_mutex_lock(&ocupation_subscribers_mutex);
         id = position_free(ocupation_subscribers, MAX_SUBSCRIBERS); // Get the first free position in the array
         pthread_mutex_unlock(&ocupation_subscribers_mutex);
@@ -411,14 +411,14 @@ void *thread_function_broker(void *arg){ // Function to handle the broker thread
                     }
                 }
             }
-        } else if(msg.action == 1){
+        } else if(msg.action == 1){ // UNREGISTER_PUBLISHER
             desregister(info->fd, &msg, "publisher");
             clock_gettime(CLOCK_REALTIME, &time);
             printf("[%ld.%ld] Eliminado cliente (%d) Publicador \n", time.tv_sec, time.tv_nsec, msg.id);
             resume();
             end_conection = 1;
 
-        } else if(msg.action == 3){
+        } else if(msg.action == 3){ // UNREGISTER_SUBSCRIBER
             desregister(info->fd, &msg, "subscriber");
             clock_gettime(CLOCK_REALTIME, &time);
             printf("[%ld.%ld] Eliminado cliente (%d) Suscriptor \n", time.tv_sec, time.tv_nsec, msg.id +1);

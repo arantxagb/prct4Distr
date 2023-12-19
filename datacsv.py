@@ -2,11 +2,11 @@ import csv
 import re
 import statistics
 
-# Definir la ruta del archivo de entrada y salida
+# ruta del archivo de entrada y salida
 input_file_path = 'resJust900.txt'
 output_file_path = 'resultadosFinalesJust900.csv'
 
-# Listas para almacenar valores de latencia
+# valores de latencia
 latencies = []
 
 # Abrir el archivo de salida en modo escritura
@@ -17,10 +17,9 @@ with open(output_file_path, 'w', newline='') as csvfile:
     # Escribir la primera línea de encabezado
     csv_writer.writerow(['Modo', 'N', 'min', 'max', 'avg', 'std'])
 
-    # Solicitar al usuario que ingrese el valor de modo y N
+    # Establecer el modo y el valor de N
     modo = "justo"
     N = 900
-
 
     # Abrir el archivo de entrada en modo lectura
     with open(input_file_path, 'r') as file:
