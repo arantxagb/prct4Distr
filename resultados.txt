@@ -1,0 +1,9 @@
+[1702934308.102098428] Subscriber conectado con broker
+[1702934308.103030459] Registrado correctamente con ID: 1 para topic len 
+[1702934519.776182453] Subscriber conectado con broker
+[1702934519.776705802] Registrado correctamente con ID: 1 para topic len 
+[1702934523.115877226] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1702934523.115652428] - Recibido: [1702934523.115877226] - Latencia: 0.000225 
+[1702934527.116359846] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1702934527.115953840] - Recibido: [1702934527.116359846] - Latencia: 0.000406 
+[1702934531.116750358] Recibido mensaje topic: len - mensaje: 1681692777 - Generó: [1702934531.116271448] - Recibido: [1702934531.116750358] - Latencia: 0.000479 
+[1702934540.440755753] Recibido mensaje topic: len - mensaje: 1681692777 - Generó: [1702934531.116271448] - Recibido: [1702934540.440755753] - Latencia: 9.324484 
+[1702934540.440897359] De-Registrado (1) correctamente del broker. 
