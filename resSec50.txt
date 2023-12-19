@@ -248,3 +248,253 @@
 [1703013722.331229853] De-Registrado (44) correctamente del broker. 
 [1703013722.331251674] De-Registrado (46) correctamente del broker. 
 [1703013722.331287015] De-Registrado (47) correctamente del broker. 
+[1703021574.431587203] Subscriber conectado con broker
+[1703021574.432402626] Registrado correctamente con ID: 1 para topic len 
+[1703021574.435835429] Subscriber conectado con broker
+[1703021574.436404339] Registrado correctamente con ID: 2 para topic len 
+[1703021574.439709501] Subscriber conectado con broker
+[1703021574.440427992] Registrado correctamente con ID: 3 para topic len 
+[1703021574.443359728] Subscriber conectado con broker
+[1703021574.444137265] Registrado correctamente con ID: 4 para topic len 
+[1703021574.447455305] Subscriber conectado con broker
+[1703021574.448054390] Registrado correctamente con ID: 5 para topic len 
+[1703021574.451463741] Subscriber conectado con broker
+[1703021574.452068685] Registrado correctamente con ID: 6 para topic len 
+[1703021574.455119346] Subscriber conectado con broker
+[1703021574.455720185] Registrado correctamente con ID: 7 para topic len 
+[1703021574.458917098] Subscriber conectado con broker
+[1703021574.459477455] Registrado correctamente con ID: 8 para topic len 
+[1703021574.462915957] Subscriber conectado con broker
+[1703021574.463462176] Registrado correctamente con ID: 9 para topic len 
+[1703021574.466742296] Subscriber conectado con broker
+[1703021574.467323134] Registrado correctamente con ID: 10 para topic len 
+[1703021574.470583580] Subscriber conectado con broker
+[1703021574.471153670] Registrado correctamente con ID: 11 para topic len 
+[1703021574.474370222] Subscriber conectado con broker
+[1703021574.474976051] Registrado correctamente con ID: 12 para topic len 
+[1703021574.478385935] Subscriber conectado con broker
+[1703021574.479055896] Registrado correctamente con ID: 13 para topic len 
+[1703021574.482068698] Subscriber conectado con broker
+[1703021574.482847710] Registrado correctamente con ID: 14 para topic len 
+[1703021574.485992240] Subscriber conectado con broker
+[1703021574.486755659] Registrado correctamente con ID: 15 para topic len 
+[1703021574.490079205] Subscriber conectado con broker
+[1703021574.490598564] Registrado correctamente con ID: 16 para topic len 
+[1703021574.494111472] Subscriber conectado con broker
+[1703021574.494631629] Registrado correctamente con ID: 17 para topic len 
+[1703021574.497805109] Subscriber conectado con broker
+[1703021574.498315894] Registrado correctamente con ID: 18 para topic len 
+[1703021574.501545266] Subscriber conectado con broker
+[1703021574.502357294] Registrado correctamente con ID: 19 para topic len 
+[1703021574.505535912] Subscriber conectado con broker
+[1703021574.506062200] Registrado correctamente con ID: 20 para topic len 
+[1703021574.509692644] Subscriber conectado con broker
+[1703021574.510536941] Registrado correctamente con ID: 21 para topic len 
+[1703021574.513602208] Subscriber conectado con broker
+[1703021574.514481295] Registrado correctamente con ID: 22 para topic len 
+[1703021574.517557446] Subscriber conectado con broker
+[1703021574.518298738] Registrado correctamente con ID: 23 para topic len 
+[1703021574.521530442] Subscriber conectado con broker
+[1703021574.522248265] Registrado correctamente con ID: 24 para topic len 
+[1703021574.525493145] Subscriber conectado con broker
+[1703021574.526222806] Registrado correctamente con ID: 25 para topic len 
+[1703021574.529405809] Subscriber conectado con broker
+[1703021574.529979046] Registrado correctamente con ID: 26 para topic len 
+[1703021574.533378309] Subscriber conectado con broker
+[1703021574.534005633] Registrado correctamente con ID: 27 para topic len 
+[1703021574.537060506] Subscriber conectado con broker
+[1703021574.537851862] Registrado correctamente con ID: 28 para topic len 
+[1703021574.540958304] Subscriber conectado con broker
+[1703021574.541713164] Registrado correctamente con ID: 29 para topic len 
+[1703021574.545065634] Subscriber conectado con broker
+[1703021574.545780805] Registrado correctamente con ID: 30 para topic len 
+[1703021574.549293388] Subscriber conectado con broker
+[1703021574.549881018] Registrado correctamente con ID: 31 para topic len 
+[1703021574.553177050] Subscriber conectado con broker
+[1703021574.553938451] Registrado correctamente con ID: 32 para topic len 
+[1703021574.556929338] Subscriber conectado con broker
+[1703021574.557565717] Registrado correctamente con ID: 33 para topic len 
+[1703021574.561074414] Subscriber conectado con broker
+[1703021574.561610964] Registrado correctamente con ID: 34 para topic len 
+[1703021574.564776773] Subscriber conectado con broker
+[1703021574.565595234] Registrado correctamente con ID: 35 para topic len 
+[1703021574.568748114] Subscriber conectado con broker
+[1703021574.569442425] Registrado correctamente con ID: 36 para topic len 
+[1703021574.572742509] Subscriber conectado con broker
+[1703021574.573300262] Registrado correctamente con ID: 37 para topic len 
+[1703021574.576450309] Subscriber conectado con broker
+[1703021574.577149198] Registrado correctamente con ID: 38 para topic len 
+[1703021574.580413729] Subscriber conectado con broker
+[1703021574.581185191] Registrado correctamente con ID: 39 para topic len 
+[1703021574.584135380] Subscriber conectado con broker
+[1703021574.584843339] Registrado correctamente con ID: 40 para topic len 
+[1703021574.588211674] Subscriber conectado con broker
+[1703021574.588832304] Registrado correctamente con ID: 41 para topic len 
+[1703021574.592099489] Subscriber conectado con broker
+[1703021574.592699649] Registrado correctamente con ID: 42 para topic len 
+[1703021574.595839896] Subscriber conectado con broker
+[1703021574.596579751] Registrado correctamente con ID: 43 para topic len 
+[1703021574.599490328] Subscriber conectado con broker
+[1703021574.600292061] Registrado correctamente con ID: 44 para topic len 
+[1703021574.603117672] Subscriber conectado con broker
+[1703021574.603711636] Registrado correctamente con ID: 45 para topic len 
+[1703021574.606644583] Subscriber conectado con broker
+[1703021574.607322903] Registrado correctamente con ID: 46 para topic len 
+[1703021574.610221336] Subscriber conectado con broker
+[1703021574.610719500] Registrado correctamente con ID: 47 para topic len 
+[1703021574.614198042] Subscriber conectado con broker
+[1703021574.614747517] Registrado correctamente con ID: 48 para topic len 
+[1703021574.617750453] Subscriber conectado con broker
+[1703021574.618399568] Registrado correctamente con ID: 49 para topic len 
+[1703021574.621318211] Subscriber conectado con broker
+[1703021574.622048385] Registrado correctamente con ID: 50 para topic len 
+[1703021579.164627068] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.164627068] - Latencia: -0.083252 
+[1703021579.165018320] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.165018320] - Latencia: -0.082861 
+[1703021579.164699814] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.164699814] - Latencia: -0.083179 
+[1703021579.164788426] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.164788426] - Latencia: -0.083091 
+[1703021579.164882914] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.164882914] - Latencia: -0.082996 
+[1703021579.164978386] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.164978386] - Latencia: -0.082901 
+[1703021579.165157075] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.165157075] - Latencia: -0.082722 
+[1703021579.165230093] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.165230093] - Latencia: -0.082649 
+[1703021579.165278363] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.165278363] - Latencia: -0.082601 
+[1703021579.165395097] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.165395097] - Latencia: -0.082484 
+[1703021579.165436058] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.165436058] - Latencia: -0.082443 
+[1703021579.165567694] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.165567694] - Latencia: -0.082312 
+[1703021579.165623682] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.165623682] - Latencia: -0.082256 
+[1703021579.165743062] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.165743062] - Latencia: -0.082136 
+[1703021579.165795468] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.165795468] - Latencia: -0.082084 
+[1703021579.165887645] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.165887645] - Latencia: -0.081992 
+[1703021579.165972458] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.165972458] - Latencia: -0.081907 
+[1703021579.166087218] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.166087218] - Latencia: -0.081792 
+[1703021579.166142311] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.166142311] - Latencia: -0.081737 
+[1703021579.166258767] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.166258767] - Latencia: -0.081621 
+[1703021579.166313854] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.166313854] - Latencia: -0.081565 
+[1703021579.166433060] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.166433060] - Latencia: -0.081446 
+[1703021579.166465293] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.166465293] - Latencia: -0.081414 
+[1703021579.166609500] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.166609500] - Latencia: -0.081270 
+[1703021579.166659051] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.166659051] - Latencia: -0.081220 
+[1703021579.166755052] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.166755052] - Latencia: -0.081124 
+[1703021579.166833563] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.166833563] - Latencia: -0.081046 
+[1703021579.166950662] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.166950662] - Latencia: -0.080929 
+[1703021579.167003937] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.167003937] - Latencia: -0.080875 
+[1703021579.167121679] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.167121679] - Latencia: -0.080758 
+[1703021579.167166527] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.167166527] - Latencia: -0.080713 
+[1703021579.167299942] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.167299942] - Latencia: -0.080579 
+[1703021579.167350787] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.167350787] - Latencia: -0.080528 
+[1703021579.167440875] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.167440875] - Latencia: -0.080438 
+[1703021579.167555160] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.167555160] - Latencia: -0.080324 
+[1703021579.167660794] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.167660794] - Latencia: -0.080218 
+[1703021579.167726553] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.167726553] - Latencia: -0.080153 
+[1703021579.167781603] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.167781603] - Latencia: -0.080098 
+[1703021579.167896935] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.167896935] - Latencia: -0.079982 
+[1703021579.167957451] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.167957451] - Latencia: -0.079922 
+[1703021579.168074463] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.168074463] - Latencia: -0.079805 
+[1703021579.168110018] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.168110018] - Latencia: -0.079769 
+[1703021579.168252889] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.168252889] - Latencia: -0.079626 
+[1703021579.168343034] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.168343034] - Latencia: -0.079536 
+[1703021579.168429991] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.168429991] - Latencia: -0.079449 
+[1703021579.168544956] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.168544956] - Latencia: -0.079334 
+[1703021579.168599068] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.168599068] - Latencia: -0.079280 
+[1703021579.168721919] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.168721919] - Latencia: -0.079157 
+[1703021579.168753385] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.168753385] - Latencia: -0.079126 
+[1703021579.168899227] Recibido mensaje topic: len - mensaje: 1804289383 - Generó: [1703021579.247879285] - Recibido: [1703021579.168899227] - Latencia: -0.078980 
+[1703021583.164994927] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.164994927] - Latencia: -0.082955 
+[1703021583.165071862] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.165071862] - Latencia: -0.082878 
+[1703021583.165113668] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.165113668] - Latencia: -0.082837 
+[1703021583.165167564] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.165167564] - Latencia: -0.082783 
+[1703021583.165331941] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.165331941] - Latencia: -0.082618 
+[1703021583.165374034] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.165374034] - Latencia: -0.082576 
+[1703021583.165433042] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.165433042] - Latencia: -0.082517 
+[1703021583.165608431] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.165608431] - Latencia: -0.082342 
+[1703021583.165768830] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.165768830] - Latencia: -0.082181 
+[1703021583.165806253] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.165806253] - Latencia: -0.082144 
+[1703021583.165944691] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.165944691] - Latencia: -0.082006 
+[1703021583.165982489] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.165982489] - Latencia: -0.081968 
+[1703021583.166178166] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.166178166] - Latencia: -0.081772 
+[1703021583.166196253] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.166196253] - Latencia: -0.081754 
+[1703021583.166232915] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.166232915] - Latencia: -0.081717 
+[1703021583.166373954] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.166373954] - Latencia: -0.081576 
+[1703021583.166418065] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.166418065] - Latencia: -0.081532 
+[1703021583.166544616] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.166544616] - Latencia: -0.081406 
+[1703021583.166598921] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.166598921] - Latencia: -0.081351 
+[1703021583.166647178] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.166647178] - Latencia: -0.081303 
+[1703021583.166775210] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.166775210] - Latencia: -0.081175 
+[1703021583.166833491] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.166833491] - Latencia: -0.081117 
+[1703021583.166953312] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.166953312] - Latencia: -0.080997 
+[1703021583.167014682] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.167014682] - Latencia: -0.080936 
+[1703021583.167098804] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.167098804] - Latencia: -0.080851 
+[1703021583.167201595] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.167201595] - Latencia: -0.080749 
+[1703021583.167314779] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.167314779] - Latencia: -0.080635 
+[1703021583.167383352] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.167383352] - Latencia: -0.080567 
+[1703021583.167427527] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.167427527] - Latencia: -0.080523 
+[1703021583.167550087] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.167550087] - Latencia: -0.080400 
+[1703021583.167588253] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.167588253] - Latencia: -0.080362 
+[1703021583.167755497] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.167755497] - Latencia: -0.080195 
+[1703021583.167814237] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.167814237] - Latencia: -0.080136 
+[1703021583.167897460] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.167897460] - Latencia: -0.080053 
+[1703021583.168002764] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.168002764] - Latencia: -0.079948 
+[1703021583.168056752] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.168056752] - Latencia: -0.079894 
+[1703021583.168179587] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.168179587] - Latencia: -0.079771 
+[1703021583.168242405] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.168242405] - Latencia: -0.079708 
+[1703021583.168262830] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.168262830] - Latencia: -0.079687 
+[1703021583.168432108] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.168432108] - Latencia: -0.079518 
+[1703021583.168491630] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.168491630] - Latencia: -0.079459 
+[1703021583.168573604] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.168573604] - Latencia: -0.079377 
+[1703021583.168671905] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.168671905] - Latencia: -0.079278 
+[1703021583.168737105] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.168737105] - Latencia: -0.079213 
+[1703021583.168856167] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.168856167] - Latencia: -0.079094 
+[1703021583.168922408] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.168922408] - Latencia: -0.079028 
+[1703021583.169042818] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.169042818] - Latencia: -0.078907 
+[1703021583.169092824] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.169092824] - Latencia: -0.078857 
+[1703021583.169123493] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.169123493] - Latencia: -0.078827 
+[1703021583.169285254] Recibido mensaje topic: len - mensaje: 846930886 - Generó: [1703021583.247950264] - Recibido: [1703021583.169285254] - Latencia: -0.078665 
+[1703021583.169522946] De-Registrado (48) correctamente del broker. 
+[1703021583.169554717] De-Registrado (49) correctamente del broker. 
+[1703021583.169651765] De-Registrado (2) correctamente del broker. 
+[1703021583.169802089] De-Registrado (4) correctamente del broker. 
+[1703021583.169949659] De-Registrado (7) correctamente del broker. 
+[1703021583.170026131] De-Registrado (12) correctamente del broker. 
+[1703021583.170601540] De-Registrado (20) correctamente del broker. 
+[1703021583.170621788] De-Registrado (18) correctamente del broker. 
+[1703021583.170933467] De-Registrado (24) correctamente del broker. 
+[1703021583.171410314] De-Registrado (40) correctamente del broker. 
+[1703021583.171437488] De-Registrado (23) correctamente del broker. 
+[1703021583.171612783] De-Registrado (30) correctamente del broker. 
+[1703021583.171686201] De-Registrado (19) correctamente del broker. 
+[1703021583.172296292] De-Registrado (37) correctamente del broker. 
+[1703021583.172415362] De-Registrado (50) correctamente del broker. 
+[1703021583.172607633] De-Registrado (47) correctamente del broker. 
+[1703021583.170065481] De-Registrado (11) correctamente del broker. 
+[1703021583.170102292] De-Registrado (14) correctamente del broker. 
+[1703021583.170133021] De-Registrado (9) correctamente del broker. 
+[1703021583.170228526] De-Registrado (15) correctamente del broker. 
+[1703021583.170282104] De-Registrado (13) correctamente del broker. 
+[1703021583.170288797] De-Registrado (8) correctamente del broker. 
+[1703021583.170328663] De-Registrado (17) correctamente del broker. 
+[1703021583.170466319] De-Registrado (6) correctamente del broker. 
+[1703021583.170479853] De-Registrado (5) correctamente del broker. 
+[1703021583.170958625] De-Registrado (10) correctamente del broker. 
+[1703021583.171041037] De-Registrado (27) correctamente del broker. 
+[1703021583.171048131] De-Registrado (26) correctamente del broker. 
+[1703021583.171087377] De-Registrado (25) correctamente del broker. 
+[1703021583.171211477] De-Registrado (22) correctamente del broker. 
+[1703021583.171219380] De-Registrado (34) correctamente del broker. 
+[1703021583.171280195] De-Registrado (29) correctamente del broker. 
+[1703021583.171714022] De-Registrado (16) correctamente del broker. 
+[1703021583.171732319] De-Registrado (42) correctamente del broker. 
+[1703021583.171777979] De-Registrado (28) correctamente del broker. 
+[1703021583.171792840] De-Registrado (41) correctamente del broker. 
+[1703021583.171812850] De-Registrado (32) correctamente del broker. 
+[1703021583.171847621] De-Registrado (21) correctamente del broker. 
+[1703021583.171799565] De-Registrado (35) correctamente del broker. 
+[1703021583.171892584] De-Registrado (44) correctamente del broker. 
+[1703021583.171906999] De-Registrado (31) correctamente del broker. 
+[1703021583.172020689] De-Registrado (1) correctamente del broker. 
+[1703021583.172038729] De-Registrado (38) correctamente del broker. 
+[1703021583.172080365] De-Registrado (46) correctamente del broker. 
+[1703021583.172109309] De-Registrado (45) correctamente del broker. 
+[1703021583.172179150] De-Registrado (3) correctamente del broker. 
+[1703021583.172198113] De-Registrado (39) correctamente del broker. 
+[1703021583.172751303] De-Registrado (43) correctamente del broker. 
+[1703021583.172774702] De-Registrado (33) correctamente del broker. 
+[1703021583.172795214] De-Registrado (36) correctamente del broker. 
