@@ -3,8 +3,8 @@ import re
 import statistics
 
 # Definir la ruta del archivo de entrada y salida
-input_file_path = 'resSec900.txt'
-output_file_path = 'resultadosFinalesSec900.csv'
+input_file_path = 'resSec50.txt'
+output_file_path = 'resultadosFinalesSec50.csv'
 
 # valores de latencia
 latencies = []
@@ -19,7 +19,7 @@ with open(output_file_path, 'w', newline='') as csvfile:
 
     # Solicitar al usuario que ingrese el valor de modo y N
     modo = "secuencial"
-    N = 900
+    N = 50
 
     # Abrir el archivo de entrada en modo lectura
     with open(input_file_path, 'r') as file:
